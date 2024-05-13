@@ -1,0 +1,1 @@
+# swagger-jsdoc_typedoc_example
