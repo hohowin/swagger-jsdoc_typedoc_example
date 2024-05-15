@@ -31,3 +31,15 @@ app.use(Router);
 app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`);
 });
+
+/**
+ * Add 2 numbers
+ * @param a 
+ * @param b 
+ * @returns the sum of number
+ */
+function sum(a: number, b: number) {
+	return a + b;
+}
+
+console.log(sum(2, 2));

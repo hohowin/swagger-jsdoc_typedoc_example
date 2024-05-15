@@ -11,7 +11,8 @@
     "dev": "nodemon dist/src/index.js",
     "debug": "DEBUG=mean-server nodemon dist/src/index.js",
     "start": "node dist/src/index.js",
-    "swagger": "tsoa spec"
+    "swagger": "tsoa spec",
+    "typedoc": "npx typedoc --out typedocs"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
@@ -22,6 +23,7 @@
     "concurrently": "^8.2.2",
     "eslint": "^9.2.0",
     "nodemon": "^3.1.0",
+    "typedoc": "^0.25.13",
     "typescript": "^5.4.5"
   },
   "dependencies": {
