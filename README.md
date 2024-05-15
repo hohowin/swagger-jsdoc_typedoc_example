@@ -1,1 +1,2 @@
-# swagger-jsdoc_typedoc_example
+# Typescript Swagger Documentation
+
