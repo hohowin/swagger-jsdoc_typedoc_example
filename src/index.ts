@@ -3,6 +3,9 @@ import express from "express";
 import morgan from "morgan";
 import swaggerUi from "swagger-ui-express";
 import Router from "./routes/router";
+import { sum } from './utils/functions';
+
+console.log(sum(1, 2));
 
 dotenv.config();
 
@@ -31,15 +34,3 @@ app.use(Router);
 app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`);
 });
-
-/**
- * Add 2 numbers
- * @param a 
- * @param b 
- * @returns the sum of number
- */
-function sum(a: number, b: number) {
-	return a + b;
-}
-
-console.log(sum(2, 2));
