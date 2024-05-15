@@ -10,7 +10,8 @@
     "watch": "tsc -w",
     "dev": "nodemon dist/src/index.js",
     "debug": "DEBUG=mean-server nodemon dist/src/index.js",
-    "start": "node dist/src/index.js"
+    "start": "node dist/src/index.js",
+    "swagger": "tsoa spec"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
